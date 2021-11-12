@@ -1,0 +1,4 @@
+UnionFindを使う
+https://note.nkmk.me/python-union-find/
+tupleで実装（基本的には同じ）
+親だけ覚えて解けばよいので、要素数は格納しない
