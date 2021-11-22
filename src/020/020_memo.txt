@@ -1,0 +1,9 @@
+近似誤差が出ないように整数で処理する
+
+式変形して
+log2(a) < b * log2(c)
+b * log2(c) - log2(a) > 0
+log2(c ** b) - log2(a) > 0
+c ** b - a > 0
+を判定
+（k * loga(M) = loga(M ** k)）
