@@ -1,0 +1,11 @@
+有向グラフの互いに行き来（強連結）
+→強連結成分分解を使う可能性大
+https://hkawabata.github.io/technical-note/note/Algorithm/graph/scc.html
+https://manabitimes.jp/math/1250
+https://zenn.dev/m193h/articles/c9495557d135a4
+
+番号を振る代わりにDFSを使ってヒープに末端から格納していく
+→再帰すると末端がヒープに先に格納される
+
+向きを逆にしたときに着する頂点から
+DFSで辿ることができた回数 = 同一SCCに含まれる頂点数
